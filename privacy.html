@@ -1,0 +1,158 @@
+<!doctype html>
+<!-- Черновик K10 (listing-1011, 10.11.2026). До публикации — вычитка юриста (STORE В6, Е10; data-safety В-3, В-4, В-8, В-15) и носителя казахского. Основа — docs/mobile/store-listing/data-safety.md и data-inventory.md. -->
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности ВкусHUB</title>
+<style>
+  :root { --brand: #B40216; --ink: #1A1A1A; --muted: #555; --bg: #FFFFFF; --line: #E5E5E5; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  header { background: var(--brand); color: #FFFFFF; padding: 20px 16px; } /* #FFFFFF на #B40216 — 7,09:1 */
+  header h1 { margin: 0; font-size: 22px; }
+  nav { max-width: 760px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 16px; flex-wrap: wrap; }
+  nav a { color: var(--brand); font-weight: 600; } /* #B40216 на #FFFFFF — 7,09:1 */
+  main { max-width: 760px; margin: 0 auto; padding: 0 16px 48px; }
+  section { border-top: 1px solid var(--line); padding-top: 8px; margin-top: 24px; }
+  h2 { font-size: 20px; } h3 { font-size: 17px; margin-bottom: 4px; }
+  .muted { color: var(--muted); font-size: 14px; } /* #555 на #FFFFFF — 7,46:1 */
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<header><h1>ВкусHUB · VkusHUB</h1></header>
+<nav><a href="#ru">Русский</a><a href="#kk">Қазақша</a><a href="#en">English</a><a href="delete-account.html">Удаление аккаунта · Аккаунтты жою · Delete account</a></nav>
+<main>
+
+<section id="ru" lang="ru">
+<h2>Политика конфиденциальности приложения ВкусHUB</h2>
+<p class="muted">Действует с 11.11.2026. Редакция 1.</p>
+
+<h3>1. Кто мы</h3>
+<p>Приложение ВкусHUB — рабочее приложение сотрудников и партнёров сетей ВКУСМАРТ и «Астана Мир Вкуса». Оператор персональных данных — ТОО «VKUSMART Retail Group», Республика Казахстан. Связаться с нами: <a href="mailto:helphub@berkat.cc">helphub@berkat.cc</a>.</p>
+
+<h3>2. Какие данные мы обрабатываем</h3>
+<ul>
+<li><b>Учётная запись:</b> номер телефона, ФИО, должность, точка или подразделение, идентификатор пользователя. Код доступа (PIN) передаётся на сервер при входе; на телефоне хранится только в защищённом виде.</li>
+<li><b>Идентификатор установки</b> — случайный номер, который приложение создаёт само, чтобы привязать телефон к учётной записи. Рекламные идентификаторы, IMEI и серийные номера мы не используем.</li>
+<li><b>Геопозиция</b> — один раз, в момент вашего действия: отметка прихода и ухода, действия в задачах и чек-листах магазина, начало и закрытие курса. В фоне геопозиция не отслеживается. Без разрешения отметка с телефона недоступна, остальное приложение работает.</li>
+<li><b>Фото и файлы</b>, которые вы сами прикладываете к заявке, задаче, чек-листу или запросу. Камера включается только по вашему нажатию; доступа ко всей галерее у приложения нет.</li>
+<li><b>Содержимое, которое вы создаёте:</b> заявки, задачи, комментарии, запросы, ответы в курсах и тестах.</li>
+<li><b>Уведомления:</b> технический адрес для доставки push-уведомлений, если вы их разрешили.</li>
+</ul>
+<p>Мы не собираем контакты телефонной книги, календарь, микрофон, историю браузера, платёжные данные и данные о здоровье. Рекламы и аналитики поведения в приложении нет.</p>
+
+<h3>3. Зачем</h3>
+<p>Только для работы приложения: вход, учёт рабочего времени, заявки, задачи и чек-листы, обучение, кадровые запросы. Данные не используются для рекламы и не продаются.</p>
+
+<h3>4. Кому передаются</h3>
+<ul>
+<li>Данные хранятся на сервере работодателя в Республике Казахстан и доступны коллегам и руководителям только в объёме, нужном им по должности.</li>
+<li>Сервис отправки SMS получает номер телефона, чтобы прислать код входа.</li>
+<li>Google (Firebase Cloud Messaging) и Apple (APNs) получают технический адрес устройства, чтобы доставить уведомление. Текст уведомлений не содержит персональных данных.</li>
+<li>Карта в сводке задачи, чек-листа и курса загружается с серверов Google (Android) или Apple (iOS): им уходит область карты и IP-адрес устройства, но не ваши координаты и не содержимое приложения.</li>
+<li>По требованию закона — государственным органам Республики Казахстан.</li>
+</ul>
+
+<h3>5. Защита</h3>
+<p>Данные передаются только по защищённому соединению (HTTPS). На телефоне данные для работы без сети хранятся в зашифрованной базе, ключи и токены входа — в защищённом хранилище системы (Keychain, Keystore). Резервное копирование данных приложения в облако отключено.</p>
+
+<h3>6. Сколько храним</h3>
+<p>Пока у вас есть доступ к приложению. После удаления учётной записи данные удаляются, кроме тех, которые работодатель обязан хранить по закону Республики Казахстан (например, учёт рабочего времени и кадровые документы), — их храним только в течение установленного законом срока.</p>
+
+<h3>7. Ваши права</h3>
+<p>Вы можете узнать, какие данные о вас хранятся, исправить их, отозвать согласие (Профиль → Конфиденциальность → Отозвать согласие) и удалить учётную запись: в приложении — Профиль → Удалить аккаунт, без приложения — по инструкции на странице <a href="delete-account.html">«Удаление аккаунта»</a>.</p>
+
+<h3>8. Изменения</h3>
+<p>О существенных изменениях политики мы сообщим в приложении. Дата редакции — в начале страницы.</p>
+</section>
+
+<section id="kk" lang="kk">
+<h2>ВкусHUB қолданбасының құпиялылық саясаты</h2>
+<p class="muted">11.11.2026 бастап күшінде. 1-редакция.</p>
+
+<h3>1. Біз кімбіз</h3>
+<p>ВкусHUB — ВКУСМАРТ және «Астана Мир Вкуса» желілері қызметкерлері мен серіктестерінің жұмыс қолданбасы. Дербес деректердің операторы — «VKUSMART Retail Group» ЖШС, Қазақстан Республикасы. Байланыс: <a href="mailto:helphub@berkat.cc">helphub@berkat.cc</a>.</p>
+
+<h3>2. Қандай деректерді өңдейміз</h3>
+<ul>
+<li><b>Есептік жазба:</b> телефон нөмірі, аты-жөні, лауазымы, нүкте немесе бөлімше, пайдаланушы идентификаторы. Қолжетімділік коды (PIN) кіру кезінде серверге жіберіледі; телефонда тек қорғалған түрде сақталады.</li>
+<li><b>Орнату идентификаторы</b> — телефонды есептік жазбаға байланыстыру үшін қолданбаның өзі жасайтын кездейсоқ нөмір. Жарнама идентификаторларын, IMEI мен сериялық нөмірлерді пайдаланбаймыз.</li>
+<li><b>Геолокация</b> — бір рет, сіздің әрекетіңіз сәтінде: келу мен кетуді белгілеу, дүкеннің тапсырмалары мен чек-парақтарындағы әрекеттер, курсты бастау және жабу. Фонда геолокация қадағаланбайды. Рұқсат болмаса, телефоннан белгілеу қолжетімсіз, қолданбаның қалғаны жұмыс істейді.</li>
+<li><b>Фото мен файлдар</b> — өтінімге, тапсырмаға, чек-параққа немесе сұранысқа өзіңіз тіркейтін. Камера тек сіз басқанда қосылады; қолданбаның бүкіл галереяға қолжетімділігі жоқ.</li>
+<li><b>Өзіңіз жасайтын мазмұн:</b> өтінімдер, тапсырмалар, пікірлер, сұраныстар, курстар мен тесттердегі жауаптар.</li>
+<li><b>Хабарламалар:</b> push-хабарламаларды жеткізуге арналған техникалық мекенжай, егер оларға рұқсат берсеңіз.</li>
+</ul>
+<p>Телефон кітабындағы контактілерді, күнтізбені, микрофонды, браузер тарихын, төлем деректерін және денсаулық деректерін жинамаймыз. Қолданбада жарнама мен мінез-құлық аналитикасы жоқ.</p>
+
+<h3>3. Не үшін</h3>
+<p>Тек қолданбаның жұмысы үшін: кіру, жұмыс уақытының есебі, өтінімдер, тапсырмалар мен чек-парақтар, оқу, кадрлық сұраныстар. Деректер жарнамаға пайдаланылмайды және сатылмайды.</p>
+
+<h3>4. Кімге беріледі</h3>
+<ul>
+<li>Деректер Қазақстан Республикасындағы жұмыс берушінің серверінде сақталады және әріптестер мен басшыларға тек лауазымына қажетті көлемде қолжетімді.</li>
+<li>SMS жіберу қызметі кіру кодын жіберу үшін телефон нөмірін алады.</li>
+<li>Google (Firebase Cloud Messaging) және Apple (APNs) хабарламаны жеткізу үшін құрылғының техникалық мекенжайын алады. Хабарлама мәтінінде дербес деректер жоқ.</li>
+<li>Тапсырма, чек-парақ және курс қорытындысындағы карта Google (Android) немесе Apple (iOS) серверлерінен жүктеледі: оларға картаның аумағы мен құрылғының IP-мекенжайы жіберіледі, бірақ сіздің координаттарыңыз бен қолданбаның мазмұны жіберілмейді.</li>
+<li>Заң талап еткенде — Қазақстан Республикасының мемлекеттік органдарына.</li>
+</ul>
+
+<h3>5. Қорғау</h3>
+<p>Деректер тек қорғалған байланыс (HTTPS) арқылы жіберіледі. Телефонда желісіз жұмысқа арналған деректер шифрланған базада, кілттер мен кіру токендері жүйенің қорғалған қоймасында (Keychain, Keystore) сақталады. Қолданба деректерін бұлтқа сақтық көшіру өшірілген.</p>
+
+<h3>6. Қанша уақыт сақтаймыз</h3>
+<p>Қолданбаға қолжетімділігіңіз болғанша. Есептік жазба жойылғаннан кейін деректер жойылады, жұмыс беруші Қазақстан Республикасының заңы бойынша сақтауға міндетті деректерден басқасы (мысалы, жұмыс уақытының есебі және кадрлық құжаттар) — оларды тек заңда белгіленген мерзімде сақтаймыз.</p>
+
+<h3>7. Сіздің құқықтарыңыз</h3>
+<p>Сіз туралы қандай деректер сақталатынын біле аласыз, оларды түзете аласыз, келісімді қайтарып ала аласыз (Профиль → Құпиялылық → Келісімді қайтарып алу) және есептік жазбаны жоя аласыз: қолданбада — Профиль → Аккаунтты жою, қолданбасыз — <a href="delete-account.html">«Аккаунтты жою»</a> бетіндегі нұсқаулық бойынша.</p>
+
+<h3>8. Өзгерістер</h3>
+<p>Саясаттың елеулі өзгерістері туралы қолданбада хабарлаймыз. Редакция күні — беттің басында.</p>
+</section>
+
+<section id="en" lang="en">
+<h2>VkusHUB Privacy Policy</h2>
+<p class="muted">Effective 11.11.2026. Version 1.</p>
+
+<h3>1. Who we are</h3>
+<p>VkusHUB is the work app for employees and partners of the VKUSMART and Astana Mir Vkusa retail chains. The data controller is VKUSMART Retail Group LLP, Republic of Kazakhstan. Contact: <a href="mailto:helphub@berkat.cc">helphub@berkat.cc</a>.</p>
+
+<h3>2. What data we process</h3>
+<ul>
+<li><b>Account:</b> phone number, full name, position, store or department, user ID. Your access code (PIN) is sent to the server when you sign in; on the phone it is kept only in protected form.</li>
+<li><b>Installation ID</b> — a random number the app creates to link your phone to your account. We do not use advertising IDs, IMEI or serial numbers.</li>
+<li><b>Location</b> — once, at the moment of your action: clock-in and clock-out, actions in store tasks and checklists, starting and finishing a course. Location is never tracked in the background. Without permission, clocking in from the phone is unavailable; the rest of the app works.</li>
+<li><b>Photos and files</b> you attach yourself to a ticket, task, checklist or request. The camera turns on only when you tap; the app has no access to your whole photo library.</li>
+<li><b>Content you create:</b> tickets, tasks, comments, requests, answers in courses and tests.</li>
+<li><b>Notifications:</b> a technical address used to deliver push notifications, if you allow them.</li>
+</ul>
+<p>We do not collect phone contacts, calendar, microphone, browsing history, payment data or health data. The app has no ads and no behavioural analytics.</p>
+
+<h3>3. Why</h3>
+<p>Only to run the app: sign-in, work time tracking, tickets, tasks and checklists, learning, HR requests. Data is not used for advertising and is not sold.</p>
+
+<h3>4. Who receives it</h3>
+<ul>
+<li>Data is stored on the employer's server in the Republic of Kazakhstan and is visible to colleagues and managers only to the extent their role requires.</li>
+<li>The SMS service receives your phone number to send the sign-in code.</li>
+<li>Google (Firebase Cloud Messaging) and Apple (APNs) receive a technical device address to deliver notifications. Notification text contains no personal data.</li>
+<li>The map in task, checklist and course summaries is loaded from Google (Android) or Apple (iOS) servers: they receive the map area and the device IP address, but not your coordinates or app content.</li>
+<li>Where required by law — government authorities of the Republic of Kazakhstan.</li>
+</ul>
+
+<h3>5. Protection</h3>
+<p>Data is sent only over a secure connection (HTTPS). On the phone, offline data is kept in an encrypted database, and keys and sign-in tokens in the system's secure storage (Keychain, Keystore). Cloud backup of app data is turned off.</p>
+
+<h3>6. How long we keep it</h3>
+<p>While you have access to the app. After your account is deleted, your data is deleted, except data the employer must keep under the law of the Republic of Kazakhstan (for example, work time records and HR documents), which we keep only for the period the law requires.</p>
+
+<h3>7. Your rights</h3>
+<p>You can find out what data we hold about you, correct it, withdraw consent (Profile → Privacy → Withdraw consent) and delete your account: in the app — Profile → Delete account; without the app — follow the steps on the <a href="delete-account.html">Delete account</a> page.</p>
+
+<h3>8. Changes</h3>
+<p>We will tell you in the app about significant changes to this policy. The version date is at the top of the page.</p>
+</section>
+
+</main>
+</body>
+</html>
